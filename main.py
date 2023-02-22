@@ -30,7 +30,7 @@ if __name__ == "__main__":
                 if (opid <= 5) & (opid >= 0):
                     break
                 else:
-                    print(Colors.FAIL + opid + " is not a valid as an operation" + Colors.ENDC)
+                    print(Colors.FAIL + str(opid) + " is not a valid as an operation" + Colors.ENDC)
             except ValueError:
                 print(Colors.FAIL + "Invalid operation" + Colors.ENDC)
 
@@ -50,7 +50,7 @@ if __name__ == "__main__":
                 if dir_contains_files("keys"):
                     dchk()
                 else:
-                    print(Colors.WARNING + "The key folder 'keys' is empty" + Colors.ENDC + "\n")
+                    print(Colors.WARNING + "The key folder is empty" + Colors.ENDC + "\n")
                     sleep(2)
             case 3:
                 print("")

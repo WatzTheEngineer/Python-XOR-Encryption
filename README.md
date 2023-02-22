@@ -21,7 +21,8 @@ Three directories are created at first launch :
 - "ecr" : encrytpted files folder
 - "keys" : key files folder
 
-/!\ When an operation is selected, all files in the operation folder are affected /!\
+/!\ When an operation is selected, all files in the operation folder are affected /!\ \
+/!\ Do not attempt to decrypt a key that is not already encrypted /!\
 
 ## Dependencies
 
